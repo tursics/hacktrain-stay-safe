@@ -46,7 +46,7 @@ var second = 0,
 	function loadPlatformData() {
 		$.ajax({
 			type: "GET",
-			url: "https://raw.githubusercontent.com/dnltsk/stay-safe/master/platform-display/datas/platformdata.csv?v=2",
+			url: "https://raw.githubusercontent.com/tursics/hacktrain-stay-safe/master/platform-display/datas/platformdata.csv?v=2",
 			dataType: "text",
 			success: function(data) {
 				platformData = processData(data);
@@ -61,7 +61,7 @@ var second = 0,
 	function loadTimetableData() {
 		$.ajax({
 			type: "GET",
-			url: "https://raw.githubusercontent.com/dnltsk/stay-safe/master/platform-display/datas/timeTable.csv?v=4",
+			url: "https://raw.githubusercontent.com/tursics/hacktrain-stay-safe/master/platform-display/datas/timeTable.csv?v=4",
 			dataType: "text",
 			success: function(data) {
 				timetableData = processData(data);
